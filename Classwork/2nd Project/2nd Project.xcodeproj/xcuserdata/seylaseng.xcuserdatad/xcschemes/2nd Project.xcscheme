@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "3C730CB61A4266840035B7C1"
-               BuildableName = "My 2nd App.app"
-               BlueprintName = "My 2nd App"
-               ReferencedContainer = "container:My 2nd App.xcodeproj">
+               BlueprintIdentifier = "3C730CE61A4270100035B7C1"
+               BuildableName = "2nd Project.app"
+               BlueprintName = "2nd Project"
+               ReferencedContainer = "container:2nd Project.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -28,10 +28,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "3C730CCB1A4266840035B7C1"
-               BuildableName = "My 2nd AppTests.xctest"
-               BlueprintName = "My 2nd AppTests"
-               ReferencedContainer = "container:My 2nd App.xcodeproj">
+               BlueprintIdentifier = "3C730CFB1A4270100035B7C1"
+               BuildableName = "2nd ProjectTests.xctest"
+               BlueprintName = "2nd ProjectTests"
+               ReferencedContainer = "container:2nd Project.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -46,20 +46,20 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "3C730CCB1A4266840035B7C1"
-               BuildableName = "My 2nd AppTests.xctest"
-               BlueprintName = "My 2nd AppTests"
-               ReferencedContainer = "container:My 2nd App.xcodeproj">
+               BlueprintIdentifier = "3C730CFB1A4270100035B7C1"
+               BuildableName = "2nd ProjectTests.xctest"
+               BlueprintName = "2nd ProjectTests"
+               ReferencedContainer = "container:2nd Project.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "3C730CB61A4266840035B7C1"
-            BuildableName = "My 2nd App.app"
-            BlueprintName = "My 2nd App"
-            ReferencedContainer = "container:My 2nd App.xcodeproj">
+            BlueprintIdentifier = "3C730CE61A4270100035B7C1"
+            BuildableName = "2nd Project.app"
+            BlueprintName = "2nd Project"
+            ReferencedContainer = "container:2nd Project.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -75,10 +75,10 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "3C730CB61A4266840035B7C1"
-            BuildableName = "My 2nd App.app"
-            BlueprintName = "My 2nd App"
-            ReferencedContainer = "container:My 2nd App.xcodeproj">
+            BlueprintIdentifier = "3C730CE61A4270100035B7C1"
+            BuildableName = "2nd Project.app"
+            BlueprintName = "2nd Project"
+            ReferencedContainer = "container:2nd Project.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -93,10 +93,10 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "3C730CB61A4266840035B7C1"
-            BuildableName = "My 2nd App.app"
-            BlueprintName = "My 2nd App"
-            ReferencedContainer = "container:My 2nd App.xcodeproj">
+            BlueprintIdentifier = "3C730CE61A4270100035B7C1"
+            BuildableName = "2nd Project.app"
+            BlueprintName = "2nd Project"
+            ReferencedContainer = "container:2nd Project.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

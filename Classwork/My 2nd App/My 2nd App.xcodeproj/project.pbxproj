@@ -13,6 +13,7 @@
 		3C730CC41A4266840035B7C1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C730CC31A4266840035B7C1 /* Images.xcassets */; };
 		3C730CC71A4266840035B7C1 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3C730CC51A4266840035B7C1 /* LaunchScreen.xib */; };
 		3C730CD31A4266840035B7C1 /* My_2nd_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C730CD21A4266840035B7C1 /* My_2nd_AppTests.swift */; };
+		3C730CDD1A426E350035B7C1 /* viking55.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 3C730CDC1A426E350035B7C1 /* viking55.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		3C730CCC1A4266840035B7C1 /* My 2nd AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "My 2nd AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C730CD11A4266840035B7C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3C730CD21A4266840035B7C1 /* My_2nd_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = My_2nd_AppTests.swift; sourceTree = "<group>"; };
+		3C730CDC1A426E350035B7C1 /* viking55.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = viking55.jpeg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 		3C730CB91A4266840035B7C1 /* My 2nd App */ = {
 			isa = PBXGroup;
 			children = (
+				3C730CDC1A426E350035B7C1 /* viking55.jpeg */,
 				3C730CBC1A4266840035B7C1 /* AppDelegate.swift */,
 				3C730CBE1A4266840035B7C1 /* ViewController.swift */,
 				3C730CC01A4266840035B7C1 /* Main.storyboard */,
@@ -195,6 +198,7 @@
 				3C730CC21A4266840035B7C1 /* Main.storyboard in Resources */,
 				3C730CC71A4266840035B7C1 /* LaunchScreen.xib in Resources */,
 				3C730CC41A4266840035B7C1 /* Images.xcassets in Resources */,
+				3C730CDD1A426E350035B7C1 /* viking55.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
