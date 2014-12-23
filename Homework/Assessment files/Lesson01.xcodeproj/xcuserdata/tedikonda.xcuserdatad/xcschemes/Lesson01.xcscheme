@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0610"
+   LastUpgradeVersion = "0600"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "3C9EF51F1A48E619001EA557"
-               BuildableName = "Xib-Demo.app"
-               BlueprintName = "Xib-Demo"
-               ReferencedContainer = "container:Xib-Demo.xcodeproj">
+               BlueprintIdentifier = "5D06C67619D8CFFE0082F2DE"
+               BuildableName = "Lesson01.app"
+               BlueprintName = "Lesson01"
+               ReferencedContainer = "container:Lesson01.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -28,10 +28,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "3C9EF5341A48E619001EA557"
-               BuildableName = "Xib-DemoTests.xctest"
-               BlueprintName = "Xib-DemoTests"
-               ReferencedContainer = "container:Xib-Demo.xcodeproj">
+               BlueprintIdentifier = "5D06C68B19D8CFFE0082F2DE"
+               BuildableName = "Lesson01Tests.xctest"
+               BlueprintName = "Lesson01Tests"
+               ReferencedContainer = "container:Lesson01.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -46,20 +46,20 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "3C9EF5341A48E619001EA557"
-               BuildableName = "Xib-DemoTests.xctest"
-               BlueprintName = "Xib-DemoTests"
-               ReferencedContainer = "container:Xib-Demo.xcodeproj">
+               BlueprintIdentifier = "5D06C68B19D8CFFE0082F2DE"
+               BuildableName = "Lesson01Tests.xctest"
+               BlueprintName = "Lesson01Tests"
+               ReferencedContainer = "container:Lesson01.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "3C9EF51F1A48E619001EA557"
-            BuildableName = "Xib-Demo.app"
-            BlueprintName = "Xib-Demo"
-            ReferencedContainer = "container:Xib-Demo.xcodeproj">
+            BlueprintIdentifier = "5D06C67619D8CFFE0082F2DE"
+            BuildableName = "Lesson01.app"
+            BlueprintName = "Lesson01"
+            ReferencedContainer = "container:Lesson01.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -75,10 +75,10 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "3C9EF51F1A48E619001EA557"
-            BuildableName = "Xib-Demo.app"
-            BlueprintName = "Xib-Demo"
-            ReferencedContainer = "container:Xib-Demo.xcodeproj">
+            BlueprintIdentifier = "5D06C67619D8CFFE0082F2DE"
+            BuildableName = "Lesson01.app"
+            BlueprintName = "Lesson01"
+            ReferencedContainer = "container:Lesson01.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -93,10 +93,10 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "3C9EF51F1A48E619001EA557"
-            BuildableName = "Xib-Demo.app"
-            BlueprintName = "Xib-Demo"
-            ReferencedContainer = "container:Xib-Demo.xcodeproj">
+            BlueprintIdentifier = "5D06C67619D8CFFE0082F2DE"
+            BuildableName = "Lesson01.app"
+            BlueprintName = "Lesson01"
+            ReferencedContainer = "container:Lesson01.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

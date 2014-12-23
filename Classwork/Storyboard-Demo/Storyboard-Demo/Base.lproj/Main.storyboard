@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6250" systemVersion="14A386b" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="O2a-Ko-dQF">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6244"/>
+    </dependencies>
+    <scenes>
+        <!--MUSIC-->
+        <scene sceneID="3hi-rD-bjf">
+            <objects>
+                <viewController id="wFf-aM-tjH" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="phA-du-WTL"/>
+                        <viewControllerLayoutGuide type="bottom" id="QIp-v7-Qph"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="dBw-f6-ydV">
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="MUSIC" image="sample-1079-fork-path.png" id="Fd0-Um-aWa"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="BjZ-zJ-yt6" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-78" y="-908"/>
+        </scene>
+        <!--PLAYER-->
+        <scene sceneID="7Pm-bn-0Q2">
+            <objects>
+                <viewController id="eLi-4r-YHX" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="BW3-ec-c7a"/>
+                        <viewControllerLayoutGuide type="bottom" id="Q1t-ZC-rHY"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="UGr-ha-8hX">
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Chapter One" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AKy-Qa-oqb">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="151" y="102" width="98.5" height="21"/>
+                                </variation>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="AKy-Qa-oqb"/>
+                            </mask>
+                        </variation>
+                        <variation key="widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="AKy-Qa-oqb"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="PLAYER" image="sample-1082-merge.png" id="yZb-84-7uz"/>
+                    <toolbarItems/>
+                    <navigationItem key="navigationItem" id="eIm-IK-Xba">
+                        <barButtonItem key="rightBarButtonItem" title="Next Page" id="bsd-Mj-THB"/>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="s3Z-Yh-uCL" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-78" y="-264"/>
+        </scene>
+        <!--SETTINGS-->
+        <scene sceneID="7PN-0K-oDS">
+            <objects>
+                <viewController id="NCJ-kE-c0I" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="8da-KW-ZEf"/>
+                        <viewControllerLayoutGuide type="bottom" id="cdG-dl-iJ0"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="O7e-iO-Ye6">
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Chapter Two" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="E7m-g4-lsW">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="151" y="102" width="98" height="21"/>
+                                </variation>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MXv-qs-vNb">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <state key="normal" title="Bookmark">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="177" y="385" width="71" height="30"/>
+                                </variation>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="E7m-g4-lsW"/>
+                                <exclude reference="MXv-qs-vNb"/>
+                            </mask>
+                        </variation>
+                        <variation key="widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="E7m-g4-lsW"/>
+                                <include reference="MXv-qs-vNb"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="SETTINGS" image="sample-834-bolt.png" id="b9z-xJ-WdX"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="o4X-Vq-6tM" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-82.5" y="463"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="im3-yo-3t8">
+            <objects>
+                <viewController id="0ua-Cc-Ttp" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="URe-zJ-039"/>
+                        <viewControllerLayoutGuide type="bottom" id="x5l-Dl-c17"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="bhG-sP-rdo">
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Settings" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RA5-PI-RtT">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="161" y="92" width="63" height="21"/>
+                                </variation>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="RA5-PI-RtT"/>
+                            </mask>
+                        </variation>
+                        <variation key="widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="RA5-PI-RtT"/>
+                            </mask>
+                        </variation>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="uDr-3E-k8o" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-75" y="1148"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="l47-z5-l86">
+            <objects>
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="O2a-Ko-dQF" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <nil key="simulatedBottomBarMetrics"/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="CnL-zV-eaK">
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="eLi-4r-YHX" kind="relationship" relationship="viewControllers" id="vVA-lT-H2N"/>
+                        <segue destination="NCJ-kE-c0I" kind="relationship" relationship="viewControllers" id="3F9-zF-Ydn"/>
+                        <segue destination="wFf-aM-tjH" kind="relationship" relationship="viewControllers" id="mWL-fi-sPj"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="6hU-Ur-cNg" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1192.5" y="-283"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="sample-1079-fork-path.png" width="24" height="28"/>
+        <image name="sample-1082-merge.png" width="24" height="28"/>
+        <image name="sample-834-bolt.png" width="26" height="28"/>
+    </resources>
+</document>

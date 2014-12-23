@@ -13,6 +13,7 @@
 		3C9EF52D1A48E619001EA557 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C9EF52C1A48E619001EA557 /* Images.xcassets */; };
 		3C9EF5301A48E619001EA557 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3C9EF52E1A48E619001EA557 /* LaunchScreen.xib */; };
 		3C9EF53C1A48E619001EA557 /* Xib_DemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C9EF53B1A48E619001EA557 /* Xib_DemoTests.swift */; };
+		3C9EF5461A48E6C3001EA557 /* View.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3C9EF5451A48E6C3001EA557 /* View.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		3C9EF5351A48E619001EA557 /* Xib-DemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Xib-DemoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C9EF53A1A48E619001EA557 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3C9EF53B1A48E619001EA557 /* Xib_DemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Xib_DemoTests.swift; sourceTree = "<group>"; };
+		3C9EF5451A48E6C3001EA557 /* View.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = View.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 				3C9EF52C1A48E619001EA557 /* Images.xcassets */,
 				3C9EF52E1A48E619001EA557 /* LaunchScreen.xib */,
 				3C9EF5231A48E619001EA557 /* Supporting Files */,
+				3C9EF5451A48E6C3001EA557 /* View.xib */,
 			);
 			path = "Xib-Demo";
 			sourceTree = "<group>";
@@ -192,6 +195,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3C9EF5461A48E6C3001EA557 /* View.xib in Resources */,
 				3C9EF52B1A48E619001EA557 /* Main.storyboard in Resources */,
 				3C9EF5301A48E619001EA557 /* LaunchScreen.xib in Resources */,
 				3C9EF52D1A48E619001EA557 /* Images.xcassets in Resources */,
